@@ -36,8 +36,7 @@ if "last_file_hash" not in st.session_state:
 # =========================================================
 
 MODEL_CANDIDATES = [
-    Path("runs/detect/train-3/weights/best.pt"),
-    Path("runs/detect/train/weights/best.pt"),
+    Path("best.pt")
 ]
 
 MODEL_PATH = None
